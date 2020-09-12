@@ -1,0 +1,24 @@
+---
+
+# Copyright (c) 2020 Ilya Fralkou
+#
+# Unlicense
+#
+#     https://unlicense.org
+#
+
+galaxy_info:
+  role_name: linux-base
+  author: "Ilya Fralkou (aka Dzmuh)"
+  description: Minimal linux base system configuration
+  license: MIT License
+  min_ansible_version: 2.9
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+  galaxy_tags:
+    - base
+    - system
+    - linux
+dependencies: []
