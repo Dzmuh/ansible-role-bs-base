@@ -12,8 +12,10 @@ _apt:
   - { state: "latest", name: "bash" }
   - { state: "latest", name: "bash-completion" }
   - { state: "latest", name: "ca-certificates" }
+  - { state: "latest", name: "cmake" }
   - { state: "latest", name: "curl" }
   - { state: "latest", name: "gnupg" }
+  - { state: "latest", name: "make" }
   - { state: "latest", name: "mc" }
   - { state: "latest", name: "python3" }
   - { state: "latest", name: "python-is-python3" }
