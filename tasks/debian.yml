@@ -17,7 +17,7 @@
   apt:
     name: "{{ item.name }}"
     state: "{{ item.state }}"
-  loop: "{{ _apt + linux_base_packages_extra }}"
+  loop: "{{ _apt + bs_base_packages_extra }}"
   register: result
   until: result is succeeded
   tags: bootstrap
@@ -28,5 +28,5 @@
     state: absent
     purge: yes
     autoremove: yes
-  with_items: '{{ linux_base_uninstall_packages }}'
+  with_items: '{{ bs_base_uninstall_packages }}'
   tags: bootstrap
