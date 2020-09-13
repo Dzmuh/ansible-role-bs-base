@@ -7,6 +7,6 @@
 #     https://unlicense.org
 #
 # List of packages to install or uninstall of a minimal base system
-linux_base_packages_extra: []
+bs_base_packages_extra: []
 
-linux_base_uninstall_packages: []
+bs_base_uninstall_packages: []
